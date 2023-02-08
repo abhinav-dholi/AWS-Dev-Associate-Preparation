@@ -4,7 +4,7 @@
 
 * Cover 30 AWS Services
 
-![plot] (.\Pictures\objective1.png)
+![Screenshot] (.\Pictures\objective1.png)
 
 
 ## What is AWS? ##

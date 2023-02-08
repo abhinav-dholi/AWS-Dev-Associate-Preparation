@@ -56,4 +56,10 @@
 * Lambda (Function as a Service)
 * Rekognition (Software as a Service)
 
+## Demonstation ##
+
+* Important links:
+    * https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1
+    * https://aws.amazon.com/about-aws/global-infrastructure/
+    * https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/?p=ngi&loc=4&refid=14a4002d-4936-4343-8211-b5a150ca592b
 

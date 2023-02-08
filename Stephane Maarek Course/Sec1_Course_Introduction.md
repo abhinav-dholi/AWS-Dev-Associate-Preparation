@@ -12,3 +12,10 @@
 * AWS is a cloud provider
 * They provide you with servers and services that you can use *on demand* and *scale easily*.
 
+## Creating AWS account ##
+
+* Signed up and account created
+
+
+
+*Practice test link(for later): https://links.datacumulus.com/aws-certified-dev-pt-coupon*

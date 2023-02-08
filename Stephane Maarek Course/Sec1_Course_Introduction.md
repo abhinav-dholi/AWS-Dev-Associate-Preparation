@@ -4,7 +4,7 @@
 
 * Cover 30 AWS Services
 
-![Screenshot] (.\Pictures\objective1.png)
+![alt text] (https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/objective1.png)
 
 
 ## What is AWS? ##

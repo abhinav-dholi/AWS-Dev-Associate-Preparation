@@ -14,5 +14,5 @@
 
 * Users and Groups can be json documents called **policies**
 <!-- ![alt text](https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/policies.png) -->
-<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/policies.png"  width="60%" height="30%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/policies.png"  width="30%" height="15%">
 

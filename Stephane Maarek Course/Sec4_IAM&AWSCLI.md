@@ -39,7 +39,94 @@ Example: <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparatio
 <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/user5.png"  width="50%" height="25%">
 <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/user6.png"  width="50%" height="25%">
 
-* Step 6: Login with the user created
+* Step 6: Login with the user created by clicking on the url (mentioned in image below)
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/user7.png"  width="50%" height="25%">
+
+* Step 7: Click and open the link in an incognito tab
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/user8.png"  width="50%" height="25%">
+
+## IAM: Policies inheritance ##
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/iam_policyinh.png"  width="50%" height="25%">
+
+## IAM Policies Structure ##
+
+* Consists of:
+    * **Version:** policy language version, always include "2012-10-17"
+    * **Id:** an identifier for the policy (optional)
+    * **Statement:** one or more indvidual statements (required)
+
+* **Statement** consists of:
+    * Sid: an identifier for the statement (optional)
+    * Effect: whether the statement allows or denies access (Allow, Deny)
+    * Principal: account/user/role to which this policy allows or denies
+    * Action: list of action this policy allows or denies
+    * Resource: list of resources to which the actions are applied to
+    * Condition: conditions for when this policy is in effect (optional)
+
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/polstruc.png"  width="60%" height="30%">
+
+
+## IAM Multi Factor Authentication (MFA) ##
+
+* To protect the root user account and IAM users
+* MFA = password you know + security device you own
+* MFA Devices:
+    * Virtual MFA Device: Google Authenticator, Authy
+    * Universal 2nd Factor (U2F) Security Key: Yubikey
+    * Hardware Key Fob MFA Device: Gemalto
+    * Hardware Key Fob MFA Device for AWS GovCloud (US): SurePassID
+
+## How to access AWS? ##
+
+* There are 3 options:
+    * AWS Management Console (protected by password + MFA)
+    * AWS Command Line Interface (CLI): protected by access keys
+    * AWS Software Development Kit (SDK) - for code; protected by access keys
+
+* Access keys are secret just like password (KeyID, Password)
+
+## AWS CLI ##
+
+* A tool that enables you to interact with AWS Services using command line in your command-line shell
+* Direct access to the public api of AWS Services
+* We can develop scripts to manage resources
+* Opensource
+* Alternative to AWS CLI
+
+## AWS SDK ##
+
+* AWS SDK is basically a set of libraries that can be used for development
+* Enables you to access and manage AWS services programmically
+* Embedded within your application
+* Supports: SDKs (JS, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++), Mobile SDK (Android, IOS, etc), IoT Device SDK (Embedded C, Arduino, etc)
+
+## AWS CLI Hands on ##
+
+* Step 1: Create access key from the **IAM User account**
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/cli1.png"  width="50%" height="25%">
+
+* Step 2: Configure aws cli on command prompt
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/cli2.png"  width="50%" height="25%">
+
+* Step 3: Try the commands
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/cli3.png"  width="50%" height="25%">
+
+## AWS Cloudshell ##
+
+to be continued tomorrow.....
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

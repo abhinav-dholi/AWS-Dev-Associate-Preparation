@@ -156,7 +156,7 @@ Example: <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparatio
 <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/roles4.png"  width="50%" height="25%">
 
 * The role looks like this
-<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/roles5.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/role5.png"  width="50%" height="25%">
 
 ## IAM Security Tools ##
 

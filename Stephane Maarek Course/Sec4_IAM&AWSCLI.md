@@ -66,12 +66,12 @@ Example: <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparatio
     * **Statement:** one or more indvidual statements (required)
 
 * **Statement** consists of:
-    * Sid: an identifier for the statement (optional)
-    * Effect: whether the statement allows or denies access (Allow, Deny)
-    * Principal: account/user/role to which this policy allows or denies
-    * Action: list of action this policy allows or denies
-    * Resource: list of resources to which the actions are applied to
-    * Condition: conditions for when this policy is in effect (optional)
+    * **Sid:** an identifier for the statement (optional)
+    * **Effect:** whether the statement allows or denies access (Allow, Deny)
+    * **Principal:** account/user/role to which this policy allows or denies
+    * **Action:** list of action this policy allows or denies
+    * **Resource:** list of resources to which the actions are applied to
+    * **Condition:** conditions for when this policy is in effect (optional)
 
 <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/polstruc.png"  width="60%" height="30%">
 
@@ -180,3 +180,16 @@ Example: <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparatio
 * Use Access Keys for Programmatic access (CLI/SDK)
 * Audit permissions of your account with the IAM Credentials Report
 * **Never Share IAM Users and Access Keys**
+
+# QUIZ 1 Solutions #
+
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_1.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_2.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_3.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_4.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_5.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_6.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_7.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_8.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_9.png"  width="50%" height="25%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q1_10.png"  width="50%" height="25%">

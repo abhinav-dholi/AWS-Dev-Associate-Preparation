@@ -1,5 +1,15 @@
 # Section 4: IAM & AWS CLI #
 
+# IAM Section Summary#
+
+* **Users:** mapped to a physical user, has a password for AWS Console
+* **Groups:** contains users only
+* **Policies:** JSON document that outlines permissions for users and groups
+* **Roles:** for EC2 instances or for AWS Services
+* **Security:** MFA + Password Policy
+* **Access Keys:** access AWS using CLI or SDK
+* **Audit:** IAM Credential Reports & IAM Access Advisor
+
 ## IAM: Users & Groups ##
 
 * IAM: Identity and Access Management, is a **Global** service
@@ -113,32 +123,60 @@ Example: <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparatio
 
 ## AWS Cloudshell ##
 
-to be continued tomorrow.....
+* Cloudshell is an alternative to terminal
+* Terminal in cloud that is free to use
+* All files created in the cloudshell environment they will stay
+* We can download and upload the files from cloudshell 
 
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/cloudshell1.png"  width="50%" height="25%">
 
+## IAM Roles for Services ##
 
+* Some AWS services will need to perform actions on your behalf
+* To do so, we will assign **permissions** to AWS services with **IAM Roles**
+* Common roles:
+  * EC2 Instance Roles
+  * Lambda Function Roles
+  * Roles for cloud formation
 
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/rolesAWS.png"  width="50%" height="25%">
 
+## IAM Roles Hands on ##
 
+* Step 1: Go to the user account and under IAM click on roles
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/roles1.png"  width="50%" height="25%">
 
+* Step 2: Click on create roles and select a trusted entity type for **AWS Services** and use case as **EC2**
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/roles2.png"  width="50%" height="25%">
 
+* Step 3: Set the permission as **IAM Read only Access** 
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/roles3.png"  width="50%" height="25%">
 
+* Step 4: Set the role name and click on create role and you role is created
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/roles4.png"  width="50%" height="25%">
 
+* The role looks like this
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/roles5.png"  width="50%" height="25%">
 
+## IAM Security Tools ##
 
+* **IAM Security report (account level)**
+  * a report that lists all the account users and the status of various credentials
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/credentialrep.png"  width="50%" height="25%">
 
+* **IAM Access Advisor (user level)**
+  * Access advisor shows the service permissions granted to a user and when those services were last used
+  * You can use this information to revise the policies
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/accessadvisor.png"  width="50%" height="25%">
 
+## IAM Guidelines & Best Practices ##
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Don't use the root account excepts for AWS Account setup
+* One physical user = One AWS user
+* **Assign users to groups** and permissions to groups
+* Create a **strong password policy**
+* Use and enforce the **Multi Factor Authentication (MFA)**
+* Create and use **Roles** for giving permissions in AWS services
+* Use Access Keys for Programmatic access (CLI/SDK)
+* Audit permissions of your account with the IAM Credentials Report
+* **Never Share IAM Users and Access Keys**

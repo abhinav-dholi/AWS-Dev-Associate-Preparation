@@ -1,6 +1,6 @@
 # Section 4: IAM & AWS CLI #
 
-# IAM Section Summary #
+# :pushpin: IAM Section Summary #
 
 * **Users:** mapped to a physical user, has a password for AWS Console
 * **Groups:** contains users only

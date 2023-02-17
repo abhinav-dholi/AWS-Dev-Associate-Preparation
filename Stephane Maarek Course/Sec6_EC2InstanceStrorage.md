@@ -317,7 +317,17 @@ Also try working with the recycling bin
 <img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/ebsvsefs_2.png" width="80%" height="40%">
 
 
+# Quiz 3 Solutions #
 
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_1.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_2.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_3.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_4.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_5.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_6.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_7.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_8.png"  width="80%" height="40%">
+<img src="https://github.com/abhinav-dholi/AWS-Dev-Associate-Preparation/blob/main/Stephane%20Maarek%20Course/Pictures/Q3_9.png"  width="80%" height="40%">
 
 
 

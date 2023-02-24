@@ -51,15 +51,15 @@
 
 * AWS has 4 kinds of managed Load Balancers
 * **Classic Load Balancer** (v1 - old generation) - 2009 - CLB
-    * HTTP, HTTPS, TCP, SSL (secure TCP)
-  * **Application Load Balancer (ALP)** (v2 - new generation) - 2016 - ALB
-    * HTTP, HTTPS, WebSocket
-  * **Network Load Balancer (NLB)** (v2 - new generation) - 2017 - NLB
-    * TCP, TLS (secure TCP), UDP
-  * **Gateway Load Balancer** - 2020 - GWLB
-    * Operates at Layer 3 (Network Layer) - IP Protocol
-  * Overall, it is recommended to use the newer generation of load balancers as they provide more features
-  * Some load balancers can be setup as internal (private) or external (public) ELBs
+  * HTTP, HTTPS, TCP, SSL (secure TCP)
+* **Application Load Balancer (ALP)** (v2 - new generation) - 2016 - ALB
+  * HTTP, HTTPS, WebSocket
+* **Network Load Balancer (NLB)** (v2 - new generation) - 2017 - NLB
+  * TCP, TLS (secure TCP), UDP
+* **Gateway Load Balancer** - 2020 - GWLB
+  * Operates at Layer 3 (Network Layer) - IP Protocol
+* Overall, it is recommended to use the newer generation of load balancers as they provide more features
+* Some load balancers can be setup as internal (private) or external (public) ELBs
 
 ## Load Balancer Security Groups ##
 
